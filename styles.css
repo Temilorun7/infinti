@@ -1,0 +1,180 @@
+/*================MAIN==================*/
+body{
+	line-height: 1.2;
+    color: #0F4471;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center-text{
+	text-align: center;
+    color: #9B0000;
+}
+
+h1, h2{
+	font-family: 'Roboto Serif', serif;;
+}
+
+h3 {
+    padding-top: 15px;
+}
+
+h5 {
+    color:  #9B0000;
+}
+
+#my-hr{
+    border: dotted #FF7272 3px;
+    width: 70%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+
+
+/********===BANNER & WELCOME===**********/
+.banner {
+	background-image: url(europe.jpg);
+	/*opacity: 0.2 ;*/
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	box-sizing: border-box;
+
+}
+
+
+.top-color{
+	background-color: #9B0000;
+}
+
+.banner-block{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10%;
+    padding-left: 200px;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+#headline{
+	padding-top: 20px;
+	font-size: 3rem;
+	color: #000B49;
+
+}
+
+#subtitle {
+	font-size: 23px;
+	font-weight: 400;
+	margin: 20px 0;
+	padding-bottom: 0;
+    color: #0F4471;
+
+}
+
+
+.buttonClass {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#ffffff;
+  border-color:#d83526;
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow:inset 0px 1px 0px 0px #f29c93;
+  text-shadow:inset 0px 1px 0px #b23e35;
+  background:linear-gradient(#9B0000, #000B49);
+  padding: 20px 30px;
+  margin: 0 auto 10px;
+  text-decoration: none;
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#F4F6F6, #E5E3C9);
+  color: #4F0E0E;
+}
+              
+ /**********======DESTINATIONS INTRO======*/
+    .intro{
+        padding: 30px;
+        line-height: 1.5;
+        font-size: 1.2rem;
+        color: #0F4471;
+    }    
+
+    .about{
+        padding-top: 40px;
+        font-size: 2rem;
+        color: #A20A0A;
+    }
+
+    .destination-text{
+        font-size: 1.0rem;
+    }
+
+  /******====FEATURES SECTION======***/
+
+#features {
+    padding: 2% 15%;
+    background-color: #fff;
+    /*position: relative; 
+    z-index: 1;*/
+  
+  }
+
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+} 
+
+
+/*********======PACKAGES====*************/
+ #packages {
+        padding: 20px 100px;
+        text-align: center;
+    }
+
+ .packages-column {
+        padding: 3% 2%;
+    }
+
+
+/******=====CONTACT DETAILS====*******/
+.partners-text {
+    padding: 15px;
+}
+
+ .contact-container{
+ 	width: 50%;
+ 	background: #FFC54D;
+ 	position: absolute;
+ 	bottom: 10px;
+    left: 20px;
+ }
+
+ #cta-text{
+ 	text-align: center;
+ 	padding-right: 30% ;
+ 	padding-top: 40px;
+ }
+
+ .cta-bottom{
+ 	padding-bottom: 70px;
+ }
+
+ .ad-container{
+ 	position: relative;
+ }
+
+ .ad-text{
+    padding-left: 20px;
+    color: #9B0000;
+ }
+
+ @media 
